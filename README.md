@@ -4,7 +4,8 @@
 cd /emulator  
 ./diag  
 
-버전은 두 가지  
+버전은 2.x 버전과 1.x버전이 있다. 하드웨어에 차이가 있다.  
+  2020년 10월 이전에 납품된 모델은 v1.x  이후 모델은 v2.x 이다.
 Version 2.x  
       FPGA Bitstream Date     : 20201013   
       FPGA Bitstream Version  : 10021000 (v2.1)  
@@ -13,4 +14,4 @@ Version 1.x
       FPGA Bitstream Date     : 20201013   
       FPGA Bitstream Version  : 10011000  (v1.1)       
       
-## 
+
