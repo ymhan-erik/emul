@@ -50,6 +50,6 @@ Q6. rx측에 'Vanidmatch'와 'Byte' 카운트 증가의 의미?
 > Vanidmatch의 증가는 캡처할수 있는 데이타가 있음을 의미합니다.
 
 ***  
-Q6. 패킷카운트는 어떻게 보나요?
+Q7. 패킷카운트는 어떻게 보나요?
 >- cd /emulator  
 >- ./diag_pkinfo   
