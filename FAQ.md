@@ -24,7 +24,7 @@ Q3. 단독 캡처는 어떻게 하나요?
 >2. diag_pkinfo  
 >3. /emul_capture 30 0  
 >>1행: 한번만 하시면 됩니다. pps소스를 변경하는 명령입니다.  
->>pcap이 플레이중이면 이 명령에 영향을 받습니다.  
+>>pcap이 플레이중이면 이 명령에 영향을 받cd/ emulator 습니다.  
 
 ***  
 Q3. 링크가 붙었는지는 어떻게 확인하나요?  
@@ -49,3 +49,7 @@ Q6. rx측에 'Vanidmatch'와 'Byte' 카운트 증가의 의미?
 > Vanidmatch 카운트는 들어온 패킷중에 vlanid가 일치는 패킷의수.
 > Vanidmatch의 증가는 캡처할수 있는 데이타가 있음을 의미합니다.
 
+***  
+Q6. 패킷카운트는 어떻게 보나요?
+>- cd /emulator  
+>- ./diag_pkinfo   
