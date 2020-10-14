@@ -2,7 +2,7 @@
 # 최신펌웨어 2020.10.14
 - rev_1v1.tar.xz
 - rev_2v1.tar.xz
-***
+
 
 ***
 # rev_1.x  
@@ -13,7 +13,7 @@
 - ddr read clock 156 -> 290Mhz로 변경  
 - rev_2.x 버전과 같은 명령어 세트  
 - 캡처/플레이 로직에 reset풀리는 시점이 pps-rising edge에 동기 되도록 수정. 
-***
+
 
 ***
 # rev_2.x  
@@ -22,7 +22,7 @@
 - 플레이/캡처/진단 명령 추가.  
 ##### rev_2v1.tar.xz : 2020.10.13. version 1.1    
 - 1PPS 출력이 10MHz 출력의 rising에 동기되도록 수정
-***
+
 
 ***
 # doc
@@ -36,4 +36,4 @@
 - emul_pcap_play, emul_cature, diag 명령추가  
 #### 2020/10/14	2.1	ver 1.1이상,  ver 2.xx 보드 모두에 적용되는 매뉴얼  
 - emul_pcap_play, emul_cature, diag 명령이 ver 1.1 ver2.x 보드 모두에 적용됨  
-***
+
