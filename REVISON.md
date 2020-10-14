@@ -1,3 +1,7 @@
+# 최신펌웨어 2020.10.14
+- rev_1v1.tar.xz
+- rev_2v1.tar.xz
+
 # rev_1.x  
 ##### rev_1v0.tar.xz : 2020.07.20. version 1.0     
 ##### rev_1v1.tar.xz : 2020.10.13. version 1.1    
@@ -14,3 +18,15 @@
 ##### rev_2v1.tar.xz : 2020.10.13. version 1.1    
 - 1PPS 출력이 10MHz 출력의 rising에 동기되도록 수정
 - rev_2v1, rev_1v1이 같은 명령어로 호환되도록 수정
+
+# doc
+#### 2020/07/03	1.0	
+- 초안 ver 1.x보드에만 해당  
+#### 2020/09/09	1.1	  
+- VRAN_ID 변경방법(200909업데이트)  
+- 외부동기방법 (200909 업데이트)  
+- TX Packet 지연방법 (200909 업데이트  
+#### 2020/10/07	2.0	2020년 10월 이후 납품된 보드에 ver 2.xx보드에만 적용되는 메뉴얼  
+- emul_pcap_play, emul_cature, diag 명령추가  
+#### 2020/10/14	2.1	ver 1.1이상,  ver 2.xx 보드 모두에 적용되는 매뉴얼  
+- emul_pcap_play, emul_cature, diag 명령이 ver 1.1 ver2.x 보드 모두에 적용됨  
