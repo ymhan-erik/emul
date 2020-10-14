@@ -38,3 +38,14 @@ Q4. 링크정보에 fpga-phy-linkup, phy-ext-linkup 차이가 뭔가요?
 > 전자는 fpga-phy사이가 붙었다는 것이고요, 후자는 케이블... 즉 외부 장치와 링크됐다는 뜻입니다.    
 > 정상인 경우, fpga-phy는 항상 링크업 상태이고, phy-ext는 외부 장치와 링크업이 됐는지 보여줍니다.    
 > 광포트 L1에 경우, 두 값은 같습니다.    
+
+***  
+Q5. pcap_play를 실행하고 'diag_pkinfo'쳤을 때 tx측에 'Vanidmatch' 카운트 증가의 의미?  
+> pcap_player에서 나가는 프레임의 수 입니다.  
+  
+***  
+Q6. rx측에 'Vanidmatch'와 'Byte' 카운트 증가의 의미?  
+> byte 카운트는 RX 포트로 들어오는 모든 패킷의 바이트 카운트.  
+> Vanidmatch 카운트는 들어온 패킷중에 vlanid가 일치는 패킷의수.
+> Vanidmatch의 증가는 캡처할수 있는 데이타가 있음을 의미합니다.
+
