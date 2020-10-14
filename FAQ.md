@@ -26,7 +26,7 @@ Q3. 단독 캡처는 어떻게 하나요?
 Q3. 링크가 붙었는지는 어떻게 확인하나요?
 >1차적으로 외부 LED가 활동하면 링크가 붙은 상태입니다.
 >diag_rst명령을 치고, diag명령을 사용하시면 L1, R4 R5 R6에 더 자세히 볼 수 있습니다.
-![Alt text](https://github.com/ymhan-erik/test/blob/master/ss_diag.jpg)
+![diag명령그림](https://github.com/ymhan-erik/emul/blob/main/doc/pic/diag.jpg)
 
 ***
 Q3. 링크정보에 fpga-phy-linkup, phy-ext-linkup 차이가 뭔가요?
