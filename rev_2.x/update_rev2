@@ -14,10 +14,17 @@ fi
 FILE=$1
 
 cd /
-mv -f /emulator /emulator_bak
+rm -rf /emulator_bak
+mv -ff /emulator /emulator_bak
 sync
 
 tar -xvf $FILE
 sync
 
+
+echo "     ============================"
+echo "     ============================"
+echo "     Done~! power on.off"
 echo "     reboot~! power on.off"
+echo "     ============================"
+echo "     ============================"
