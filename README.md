@@ -48,3 +48,9 @@ sync
 - cp -rf /emulator /emulator_bak
 - tar -xvf ./rev_2v1.tar.xz
 - sync
+
+- 'python-periphery.tar.xz' 파일을 /emulator 에 복사
+- cd /emulator/python-periphery
+- tar -xvf ./python-periphery.tar.xz
+- cd /emulator/python-periphery
+- python3 setup.py install
