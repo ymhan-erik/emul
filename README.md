@@ -42,15 +42,14 @@ sync
 8. 버전을 확인해서 업데이트가 됐는지 확인한다.
 
 #### 업데이트 명령어 요약
-계측기 최상위 폴더에 'rev_2v1.tar.xz'파일이 복사됐다고 가정
-- cd /
-- ls /rev_2v1.tar.xz
-- cp -rf /emulator /emulator_bak
-- tar -xvf ./rev_2v1.tar.xz
-- sync
-
-- 'python-periphery.tar.xz' 파일을 /emulator 에 복사
-- cd /emulator
-- tar -xvf ./python-periphery.tar.xz
-- cd /emulator/python-periphery
-- python3 setup.py install
+계측기 최상위 폴더에 'rev_2v1.tar.xz' & 'python-periphery.tar.xz' 파일이 복사됐다고 가정
+>>cd /  
+>>cp -rf /emulator /emulator_bak  
+>>sync
+>>tar -xvf ./rev_1v1.tar.xz  
+>>cp /python-periphery.tar.xz /emulator  
+>>cd /emulator  
+>>tar -xvf ./python-periphery.tar.xz  
+>>cd /emulator/python-periphery  
+>>python3 setup.py install  
+>> 재부팅~!
