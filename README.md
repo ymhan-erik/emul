@@ -45,7 +45,7 @@ sync
 계측기 최상위 폴더에 'rev_2v1.tar.xz' & 'python-periphery.tar.xz' 파일이 복사됐다고 가정
 >>cd /  
 >>cp -rf /emulator /emulator_bak  
->>sync
+>>sync  
 >>tar -xvf ./rev_1v1.tar.xz  
 >>cp /python-periphery.tar.xz /emulator  
 >>cd /emulator  
