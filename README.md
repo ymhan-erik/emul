@@ -50,7 +50,7 @@ sync
 - sync
 
 - 'python-periphery.tar.xz' 파일을 /emulator 에 복사
-- cd /emulator/python-periphery
+- cd /emulator
 - tar -xvf ./python-periphery.tar.xz
 - cd /emulator/python-periphery
 - python3 setup.py install
