@@ -1,0 +1,32 @@
+#!/bin/sh
+
+
+if [ -f ./$1 ]
+then
+    echo "..."
+else
+    echo "don't found bin-file "
+    echo "usage> ./update_rev1.sh [file name] "
+	echo "     ex) ./update_rev1.sh rev_1v1.tar.xz "
+    exit 1
+fi
+
+FILE=$1
+
+cd /
+mv -f /emulator /emulator_bak
+sync
+
+tar -xvf $FILE
+cp /python-periphery.tar.xz /emulator
+cd /emulator
+sync
+
+tar -xvf ./python-periphery.tar.xz
+sync
+
+cd /emulator/python-periphery
+./python3 setup.py install
+sync
+
+echo "     reboot~! power on.off"
