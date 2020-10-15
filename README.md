@@ -25,31 +25,17 @@ Version 1.x
       FPGA Bitstream Date     : 20201013
       FPGA Bitstream Version  : 10011000  (v1.1)
 
-## 계측기 업데이트 방법
-1. revision.md로 최신버전을 확인 한다.
-2. /rev_v1.x 또는 /rev_v2.x 폴더에서 원하는 버전을 다운 받는다. ex) rev_2v1.tar.xz
-3. 파일질라같은 어플을 이용하여 계측기에 '/최상위폴더'에 복사 한다. 다음 명령을 쳐서 파일이 복사된것을 확인한다.
-cd /
-ls /rev_2v1.tar.xz
-4. 현재 계측기 폴더를 백업한다.
-cp -rf /emulator /emulator_bak
-5. 압축을 풀더서 업데이트를 진행한다.
-cd /
-tar -xvf ./rev_2v1.tar.xz
-6. 완료되면 다음 명령을 친다.
-sync
-7. 계측기 전원을 껏다가 켠다.
-8. 버전을 확인해서 업데이트가 됐는지 확인한다.
+## 계측기 업데이트 방법  
+1. /rev_v1.x 또는 /rev_v2.x 폴더에서 원하는 버전을 다운 받는다. ex) rev_2v1.tar.xz  
+2. 파일질라같은 어플을 이용하여 계측기에 '/ 최상위폴더'에 복사 한다. 다음 명령을 쳐서 파일이 복사된것을 확인한다.  
+3. 현재 계측기 폴더를 백업한다.  
+4. 업데이트를 진행한다. 실행 '/update_rev1 rev_2v1.tar.xz'  
+5. 완료되면 전원을 껏다가 켠다.  
+7. 버전을 확인해서 업데이트가 됐는지 확인한다.  
 
-#### 업데이트 명령어 요약
-계측기 최상위 폴더에 'rev_2v1.tar.xz' & 'python-periphery.tar.xz' 파일이 복사됐다고 가정
->>cd /  
->>cp -rf /emulator /emulator_bak  
->>sync  
->>tar -xvf ./rev_1v1.tar.xz  
->>cp /python-periphery.tar.xz /emulator  
->>cd /emulator  
->>tar -xvf ./python-periphery.tar.xz  
->>cd /emulator/python-periphery  
->>./python3 setup.py install  
->> 재부팅~!
+#### 업데이트 명령어 요약  
+계측기 최상위 폴더에 **'rev_1v1.tar.xz' & 'python-periphery.tar.xz' & 'update_rev1' 파일이 복사됐다고 가정**  
+다음 명령을 친다.
+**/update_rev1 rev_1v1.tar.xz**  
+
+
