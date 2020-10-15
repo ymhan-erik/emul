@@ -1,0 +1,23 @@
+#!/bin/sh
+
+
+if [ -f ./$1 ]
+then
+    echo "..."
+else
+    echo "don't found bin-file "
+    echo "usage> ./update_rev2.sh [file name] "
+	echo "     ex) ./update_rev2.sh rev_2v1.tar.xz "
+    exit 1
+fi
+
+FILE=$1
+
+cd /
+mv -f /emulator /emulator_bak
+sync
+
+tar -xvf $FILE
+sync
+
+echo "     reboot~! power on.off"
